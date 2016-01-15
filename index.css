@@ -1,0 +1,36 @@
+html{
+    background-color: #FFFCED;
+    
+}
+body{
+    margin: 0;
+}
+img{
+    width: 100%;
+    height:300px
+    
+}
+#top{
+    height: 100px;
+}
+#image{
+    height: 200px;
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+    
+    
+}
+#middle{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height 200px;
+    width: 100%;
+    border-top-width: thin;
+    border-top-style: groove;
+    
+    box-shadow: 0px 20px 40px #888;
+
+    
+}
