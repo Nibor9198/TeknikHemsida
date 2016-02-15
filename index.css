@@ -7,8 +7,7 @@ body{
 }
 img{
     width: 200px;
-    height:150px
-    
+    height:150px  
 }
 #top{
     height: 150px;
@@ -25,7 +24,7 @@ img{
 #middle{
    
     padding-bottom: 20px;
-    height 200px;
+    height: 200px;
     width: 100%;
     border-top-width: thin;
     border-top-style: groove;
