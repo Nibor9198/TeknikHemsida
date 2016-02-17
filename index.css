@@ -11,6 +11,7 @@ img{
 }
 #top{
     height: 150px;
+    padding-bottom: 0px;
 }
 #image{
     height: 300px;
@@ -24,7 +25,7 @@ img{
 #middle{
    
     padding-bottom: 20px;
-    height: 200px;
+    height: auto;
     width: 100%;
     border-top-width: thin;
     border-top-style: groove;
@@ -64,12 +65,16 @@ h3{
     margin:0px;
     position: absolute;
     top: 0px;
+    width: 20%;
+    height: 100%;
+    padding-top: 5px;
+    border-radius: 2.5px;
 }
 .dropper div {
     padding:0px;
     margin: 0px;
-    margin-top:45px;
-    width: 80px;
+    margin-top:40px;
+    width: 105%;
     
     
 }
@@ -81,7 +86,7 @@ div div a{
     visibility: hidden;
     overflow: hidden;
     transition: height 1s, visible 1s;
-    width: 80px;
+    width: 100%;
     
 }
 
@@ -92,6 +97,7 @@ div div a{
     background-color: #FFF;
      transition: height 1s, visible 1s;
      padding-top:5px;
+     cursor:pointer;
     /*box-shadow: 0px -10px 20px #666 inset;*/
 }
 .dropper p{
@@ -100,10 +106,13 @@ div div a{
 }
 .dropper:hover h3{
     background-color:#CCC;
-    
+    cursor:pointer;
 }
 a{
     
     text-decoration: none;
     color:black;
+}
+a:hover {
+    background-color:#CCCCCC;
 }
