@@ -4,9 +4,11 @@ html{
 }
 body{
     margin: 0;
+    font-family: Tahoma, Geneva, sans-serif;
+    color:#666;
 }
 img{
-    width: 200px;
+    width:400px;
     height:150px  
 }
 #top{
@@ -16,6 +18,7 @@ img{
 #image{
     height: 300px;
     background-image: url(image.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow:hidden;
@@ -39,14 +42,16 @@ h2{
     font-family: "Arial Black", Gadget, sans-serif;
     color: #FFFFFF;
     text-shadow: 2px 2px 20px #000;
+    
 }
 #menu{
     position:absolute;
     right: 20px;
-    top:110px;
+    top:80px;
     font-size: 20px;
     text-align: center;
     height: 40px;
+    
     
 }
 .dropper{   
@@ -57,7 +62,7 @@ h2{
     margin:0px;
     display:inline-table;
     height: auto;
-    width: 95px;
+    width: 150px;
     text-align: center;
     
 }
@@ -69,12 +74,19 @@ h3{
     height: 100%;
     padding-top: 5px;
     border-radius: 2.5px;
+    border-width: 0px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-style: solid
 }
 .dropper div {
     padding:0px;
     margin: 0px;
     margin-top:40px;
     width: 105%;
+    border-bottom-left-radius: 2.5px;
+    border-bottom-right-radius: 2.5px;
+    overflow: hidden;
     
     
 }
@@ -87,6 +99,7 @@ div div a{
     overflow: hidden;
     transition: height 1s, visible 1s;
     width: 100%;
+    border-width: inherit;
     
 }
 
@@ -113,6 +126,6 @@ a{
     text-decoration: none;
     color:black;
 }
-a:hover {
+.dropper div a:hover {
     background-color:#CCCCCC;
 }
