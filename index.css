@@ -18,7 +18,7 @@ img{
 #image{
     height: 300px;
     background-image: url(image.jpg);
-    background-position: center;
+    background-position: center;    
     background-repeat: no-repeat;
     background-size: cover;
     overflow:hidden;
@@ -46,24 +46,13 @@ h2{
 }
 #menu{
     position:absolute;
-    right: 20px;
+    left: 450px;
     top:80px;
     font-size: 20px;
     text-align: center;
     height: 40px;
     
     
-}
-.dropper{   
-    /*padding: 10px;
-    padding-right: 20px;
-    padding-left: 20px;*/
-    padding: 0px;
-    margin:0px;
-    display:inline-table;
-    height: auto;
-    width: 150px;
-    text-align: center;
     
 }
 h3{
@@ -79,16 +68,34 @@ h3{
     border-left-width: 2px;
     border-style: solid
 }
+
+.dropper{   
+    /*padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;*/
+    padding: 0px;
+    margin:0px;
+    display:inline-table;
+    height: auto;
+    width: 150px;
+    text-align: center;
+}
+@media only screen and (max-width: 1200px){
+    .dropper{
+        width:100px;
+    }
+    h3{
+        font-size: 75%;
+    }
+}
 .dropper div {
     padding:0px;
     margin: 0px;
     margin-top:40px;
-    width: 105%;
+    width: 100%;
     border-bottom-left-radius: 2.5px;
     border-bottom-right-radius: 2.5px;
     overflow: hidden;
-    
-    
 }
 div div a{
     padding:0px;
@@ -108,7 +115,7 @@ div div a{
     visibility: visible;
     height: 30px;
     background-color: #FFF;
-     transition: height 1s, visible 1s;
+     transition: height 0.5s, visible 0.5s;
      padding-top:5px;
      cursor:pointer;
     /*box-shadow: 0px -10px 20px #666 inset;*/
@@ -121,8 +128,7 @@ div div a{
     background-color:#CCC;
     cursor:pointer;
 }
-a{
-    
+a{  
     text-decoration: none;
     color:black;
 }
