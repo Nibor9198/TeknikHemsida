@@ -6,6 +6,7 @@ body{
     margin: 0;
     font-family: Tahoma, Geneva, sans-serif;
     color:#666;
+    display:grid;
 }
 img{
     width:400px;
@@ -59,6 +60,7 @@ h3{
     margin:0px;
     position: absolute;
     top: 0px;
+    font-size: 75%;
     width: 20%;
     height: 100%;
     padding-top: 5px;
@@ -77,15 +79,15 @@ h3{
     margin:0px;
     display:inline-table;
     height: auto;
-    width: 150px;
+    width: 100px;
     text-align: center;
 }
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1000px){
     .dropper{
-        width:100px;
+        width:50px;
     }
     h3{
-        font-size: 75%;
+        font-size: 50%;
     }
 }
 .dropper div {
@@ -134,4 +136,9 @@ a{
 }
 .dropper div a:hover {
     background-color:#CCCCCC;
+}
+iframe{
+    width: 100%;
+    position: absolute;
+    top: 475px;
 }
