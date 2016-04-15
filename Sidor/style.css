@@ -1,0 +1,22 @@
+
+html{
+display: block;
+}
+div{
+    width: 42%;
+    padding: 20px;
+    position: absolute;
+}
+#one{
+    
+    left: 15px;
+}
+#two{
+    right : 15px;
+    float:right;
+    
+    padding-top: 70px;
+}
+h2{
+    
+}

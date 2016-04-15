@@ -40,21 +40,23 @@ img{
 }
 h2{
     font-size: 25px;
+    margin-top: 75px;
     font-family: "Arial Black", Gadget, sans-serif;
     color: #FFFFFF;
-    text-shadow: 2px 2px 20px #000;
-    
+    /*text-shadow: 2px 2px 20px #000;
+    */
 }
 #menu{
     position:absolute;
     left: 450px;
-    left: calc(100%-780px);
+    /*left: calc(100%-780px);
+    */
     top:80px;
     font-size: 20px;
     text-align: center;
     height: 40px;
-    padding-left: calc(100%-48.750em);
-    
+    /*padding-left: calc(100%-48.750em);
+    */
     
 }
 h3{
@@ -80,58 +82,77 @@ h3{
     margin:0px;
     display:inline-table;
     height: auto;
-    width: 125px;
+    width: 150px;
+    max-width: 150px;
+    z-index: 2;
     text-align: center;
+    overflow:;
 }
-@media only screen and (max-width: 900px){
-    #menu{
-        width: 380px;
-        
-    }
+@media only screen and (max-width: 980px){
+    /**/
     #middle{
-        width:900px;
+        width:980px;
     }
+
 }
 @media only screen and (max-width: 1120px){
+    #menu{
+        width: 500px;
+        
+    }
+    .droppper div {
+        width: 103% !important;
+    }
     .dropper{
-        width:70px;
+        width:100px !important;
+        max-width: 100px;
     }
     h3{
-        font-size: 70%;
+        font-size: 60%;
     }
-    
 }
 
 .dropper div {
+    
     padding:0px;
     margin: 0px;
     margin-top:40px;
-    width: 100%;
+    width: 85%;
     border-bottom-left-radius: 2.5px;
     border-bottom-right-radius: 2.5px;
-    overflow: hidden;
+    overflow:;
+    z-index: 1;
+    
 }
 div div a{
+    position:relative;
+     width:100%;
+    
     padding:0px;
     margin: 0px;
     height: 0px;
     display: block;
     visibility: hidden;
-    overflow: hidden;
     transition: height 1s, visible 1s;
-    width: 100%;
+    font-size: 0.6em;
+
     border-width: inherit;
     
 }
 
  .dropper:hover div a{
-    display:block;
-    visibility: visible;
-    height: 30px;
-    background-color: #FFF;
+    
+     display:block;
+     visibility: visible;
+     width:auto;
+     height: 20px;
+     background-color: #FFF;
      transition: height 0.5s, visible 0.5s;
      padding-top:5px;
      cursor:pointer;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     
     /*box-shadow: 0px -10px 20px #666 inset;*/
 }
 .dropper p{
@@ -152,6 +173,7 @@ a{
 iframe{
     width: 100%;
     position: absolute;
-    top: 475px;
+    top: 500px;
     border-width: 0px;
+    height: 500px; 
 }

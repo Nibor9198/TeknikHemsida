@@ -7,5 +7,6 @@ function dropDown(s){
 }
 $(function() {
     var t = ($(document).width()) - (($("#img").outerWidth()) + ($("#menu").outerWidth()));
-    $("#menu").attr("left", t)
+    $("#menu").attr("left", t);
+
 });
