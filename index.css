@@ -100,8 +100,8 @@ h3{
         width: 500px;
         
     }
-    .droppper div {
-        width: 103% !important;
+    div div a {
+        width: 120% !important;
     }
     .dropper{
         width:100px !important;
@@ -116,7 +116,7 @@ h3{
     
     padding:0px;
     margin: 0px;
-    margin-top:40px;
+    margin-top:50px;
     width: 85%;
     border-bottom-left-radius: 2.5px;
     border-bottom-right-radius: 2.5px;
@@ -132,10 +132,10 @@ div div a{
     margin: 0px;
     height: 0px;
     display: block;
-    visibility: hidden;
+    opacity: 0;
+    
     transition: height 1s, visible 1s;
     font-size: 0.6em;
-
     border-width: inherit;
     
 }
@@ -143,11 +143,11 @@ div div a{
  .dropper:hover div a{
     
      display:block;
-     visibility: visible;
+     opacity: 100;
      width:auto;
      height: 20px;
      background-color: #FFF;
-     transition: height 0.5s, visible 0.5s;
+     transition: height 0.5s, opacity 0.5s;
      padding-top:5px;
      cursor:pointer;
      padding-top: 10px;
