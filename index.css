@@ -43,12 +43,12 @@ h2{
     margin-top: 75px;
     font-family: "Arial Black", Gadget, sans-serif;
     color: #FFFFFF;
-    /*text-shadow: 2px 2px 20px #000;
+    padding-left:5%;    /*text-shadow: 2px 2px 20px #000;
     */
 }
 #menu{
     position:absolute;
-    left: 450px;
+    right: 0px;
     /*left: calc(100%-780px);
     */
     top:80px;
